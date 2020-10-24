@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Pikadu</title>
+  <title>Pikadu - Главная</title>
 </head>
 <body>
   <header class="header">
@@ -19,6 +19,11 @@
           <li class="header-menu-item"><a href="#" class="header-menu-link">Горячее</a></li>
           <li class="header-menu-item"><a href="#" class="header-menu-link">Подписки</a></li>
         </ul>
+        <a href="#" class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
       </nav>
       <div class="input-group search">
         <input type="search" class="search-input" placeholder="Поиск по сайту">
@@ -26,6 +31,8 @@
           <img src="./img/search.svg" alt="search" class="search-icon">
         </button>
       </div>
+
+
     </div>
   </header>
   <div class="content">
@@ -135,7 +142,62 @@
         </div>
       </section>
     </main>
-    <aside class="sidebar"></aside>
+    <aside class="sidebar">
+      <div class="user">
+        <a href="#" class="user-info">
+          <img width="40" height="40" src="./img/avatar.jpg" alt="photo: user" class="user-avatar">
+          <span class="user-name">b1g_x</span>
+        </a>
+        <a href="#" class="exit">
+          <svg class="icon icon-exit">
+            <use xlink:href="./img/icons.svg#exit"></use>
+          </svg>
+        </a>
+      </div>
+      <nav class="sidebar-nav">
+        <ul class="sidebar-menu">
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Ответы </a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Комментарии</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link active">Оценки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Сохраненное</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Подписки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Заметки</a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="#" class="sidebar-menu-link">Игнор-лист</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="new-post.html" classgit remote add origin="button button-new-post">
+        <svg class="icon icon-fire">
+          <use xlink:href="./img/icons.svg#fire"></use>
+        </svg>
+        Опубликовать пост</a>
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Комментарий дня</h2>
+        </div>
+        <div class="card-body">
+          <a href="#" class="card-body-title">Как обмануть банкомат, если вы хотите снять больше наличных</a>
+          <p class="card-text">Таким образом укрепление и развитие структуры требуют от нас анализа форм развития. Не следует, однако забывать, что реализация намеченных плановых заданий требуют от нас анализа позиций,
+          занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же консультация...</p>
+        </div>
+      </div>
+      <a href="#" class="promo">
+
+      </a>
+    </aside>
   </div>
   <!-- /.content -->
 
